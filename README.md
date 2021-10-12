@@ -8,7 +8,7 @@ For doing this challenge I React and React Bootstrap.
 
 # Live Site
 
-You can see the live site [live site](https://link-shortening.netlify.app/)
+You can see the live site [Url Shortening](https://link-shortening.netlify.app/)
 
 # API Link
 
