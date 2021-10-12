@@ -1,0 +1,64 @@
+.shortenlink-container {
+  background-color: #f0f1f6;
+}
+.input-container {
+  background: url("../../images/bg-shorten-mobile.svg");
+  background-color: #3a3053;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: -110px;
+}
+
+.input-container input {
+  width: 100%;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid red;
+  border-color: transparent;
+  padding: 10px 16px;
+}
+
+.empty-input::placeholder {
+  color: red;
+}
+
+.input-container .btn-success {
+  width: 100%;
+  border-radius: 8px;
+}
+.short-link .btn-success {
+  border-radius: 8px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #9b9aa1;
+}
+
+@media (min-width: 1024px) {
+  .input-container {
+    background: url("../../images/bg-shorten-desktop.svg");
+    background-color: #3a3053;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .input-container input {
+    width: 95%;
+    padding: 5px 16px;
+    margin-bottom: 0;
+  }
+  .input-div {
+    width: 80%;
+  }
+  .input-div p {
+    margin: 0;
+  }
+  .input-container .btn-success {
+    width: 20%;
+    height: 20%;
+  }
+}

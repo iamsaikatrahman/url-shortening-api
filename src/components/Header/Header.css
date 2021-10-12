@@ -1,0 +1,33 @@
+.bg-light {
+  background-color: #fff !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 500;
+  font-size: 18px;
+  color: #9b9aa1;
+}
+.btn-success {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #2ad1cf;
+  border-color: #2ad1cf;
+  border-radius: 30px;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #9ce2e2;
+  border-color: #9ce2e2;
+}
+.btn-success:active,
+.btn-success:focus {
+  color: #fff;
+  background-color: #3a3053;
+  border-color: #3a3053;
+  box-shadow: none;
+}

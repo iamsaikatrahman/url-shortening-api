@@ -1,0 +1,22 @@
+.btn-copy {
+  color: #fff;
+  background-color: #3a3053;
+  border-color: #3a3053;
+  box-shadow: none;
+}
+.original-link {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.copy-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .copy-btn {
+    width: auto;
+    margin-top: 0;
+  }
+}

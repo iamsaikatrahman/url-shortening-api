@@ -1,0 +1,18 @@
+.boost-container {
+  background: url("../../images/bg-boost-mobile.svg");
+  background-color: #3a3053;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.boost-container .boost-title {
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+  .boost-container {
+    background: url("../../images/bg-boost-desktop.svg");
+    background-color: #3a3053;
+  }
+}

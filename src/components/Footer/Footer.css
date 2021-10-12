@@ -1,0 +1,42 @@
+.footer-container {
+  background-color: #232027;
+  color: #fff;
+}
+.footer-logo {
+  filter: brightness(0) invert(1);
+}
+
+.footer-link h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer-link p {
+  font-size: 0.8rem;
+  color: #9b9aa1;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+}
+.footer-link p:hover {
+  color: #2ad1cf;
+}
+.footer-social-icon img {
+  cursor: pointer;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution .nav-link {
+  display: inline;
+  padding: 0;
+  text-decoration: underline;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
