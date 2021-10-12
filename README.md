@@ -4,7 +4,7 @@ Thanks for this front-end coding challenge. [Frontend Mentor](https://www.fronte
 
 # Technology
 
-For doing this challenge I React and React Bootstrap.
+For doing this challenge I use React and React Bootstrap.
 
 # Live Site
 
